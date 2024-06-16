@@ -10,6 +10,7 @@ This repository contains a collection of commonly used utility functions for C++
 - **Math Utilities**: Functions for computing GCD, LCM, and checking prime numbers.
 - **File Utilities**: Functions for reading from and writing to files.
 - **Time Utilities**: A timer class for measuring elapsed time.
+- **Algorithm Utilities**: Sorting, searching, and graph algorithms.
 
 ## Getting Started
 
