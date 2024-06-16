@@ -2,6 +2,9 @@
 #include "MathUtils.h"
 #include "StringUtils.h"
 #include "TimeUtils.h"
+#include "GraphUtils.h"
+#include "SearchingUtils.h"
+#include "SortingUtils.h"
 #include <cassert>
 #include <chrono>
 #include <iostream>
@@ -48,9 +51,6 @@ void test_time_utils() {
   assert(timer.elapsed() >= 0.1); // 檢查計時器是否記錄了至少 0.1 秒
 }
 
-#include "GraphUtils.h"
-#include "SearchingUtils.h"
-#include "SortingUtils.h"
 
 void test_sorting_utils() {
   std::vector<int> arr = {5, 2, 9, 1, 5, 6};
